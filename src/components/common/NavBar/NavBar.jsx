@@ -26,10 +26,10 @@ const NavBar = () => {
         <Toolbar sx={{justifyContent:"flex-start", ml:-5}}>
            
         <Button  sx={{ mr: 3, ml: 7, display: { xs: "none", sm:"block"}}} component={NavLink} to={"/"}>Home</Button>
-        <Button sx={{ mr: 3, display: { xs: "none", sm:"block"}}} component={NavLink} to={""} >Obras</Button>
-        <Button sx={{mr: 0, display: { xs: "none", sm:"block"}}} component={NavLink} to={""} >CV</Button>
-        <Button sx={{mr: 3, display: { xs: "none", sm:"block"}}} component={NavLink} to={""} >Textos</Button>
-        <Button sx={{mr:10, display: { xs: "none", sm:"block"}}} component={NavLink} to={""} >Shop</Button>
+        <Button sx={{ mr: 3, display: { xs: "none", sm:"block"}}} component={NavLink} to={"/obras"} >Obras</Button>
+        <Button sx={{mr: 0, display: { xs: "none", sm:"block"}}} component={NavLink} to={"/cv"} >CV</Button>
+        <Button sx={{mr: 3, display: { xs: "none", sm:"block"}}} component={NavLink} to={"/textos"} >Textos</Button>
+        <Button sx={{mr:10, display: { xs: "none", sm:"block"}}} component={NavLink} to={"/shop"} >Shop</Button>
         
        
         </Toolbar>
