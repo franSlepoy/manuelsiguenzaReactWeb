@@ -10,14 +10,16 @@ import EmailTwoToneIcon from '@mui/icons-material/EmailTwoTone';
 import FacebookTwoToneIcon from '@mui/icons-material/FacebookTwoTone';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Link } from 'react-router-dom';
 
 export default function NavListDrawer() {
   return (
-    <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+    
+      <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="supernoli@gmail.com" >
+            <ListItemButton component="a" href="mailto:supernoli@gmail.com" >
               <ListItemIcon>
               <EmailTwoToneIcon sx={{ fontSize: 33}} />
               </ListItemIcon>
@@ -50,5 +52,7 @@ export default function NavListDrawer() {
         </List>
       </nav>
     </Box>
+    
+    
   );
 }
