@@ -18,7 +18,7 @@ const NavBar = () => {
        <Toolbar>
        <Typography sx={{ml:2}} variant="h1" color="primary" mt={3} ml={5}>MANUEL SIGÜENZA</Typography>
        <Button sx={{paddingX:3, ml:"15%", mt:"3%"}} variant="contained" color="inherit" onClick={()=> setOpen(true)}>
-          <img src="/src/imagenes/busto1.jpg" alt="icono" width={40}/>
+          <img src="/src/imagenes/busto2.jpg" alt="icono" width={40}/>
             <Typography sx={{ml:2}}> Contacto </Typography> 
          </Button>
        </Toolbar>
