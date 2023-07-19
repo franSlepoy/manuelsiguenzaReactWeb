@@ -1,10 +1,11 @@
-import { Button, Typography } from '@mui/material'
 import React from 'react'
+import Carouselcard from '../../common/carousel/Carousel'
+
 
 const Home = () => {
   return (
     <>
-    
+    <Carouselcard/>
   
     </>
    
