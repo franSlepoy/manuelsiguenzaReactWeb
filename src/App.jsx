@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import NavBar from "./components/common/NavBar/NavBar"
 import Cv from "./components/pages/cv/Cv"
+import Formulario from "./components/pages/formulario/Formulario"
 import Home from './components/pages/home/Home'
 import Obras from "./components/pages/obras/Obras"
 import Shop from "./components/pages/shop/Shop"
@@ -18,6 +19,7 @@ function App() {
       <Route path='/cv' element={<Cv/>}/>
       <Route path='/textos' element={<Textos/>}/>
       <Route path='/shop' element={<Shop/>}/>
+      <Route path='/formulario' element={<Formulario/>}/>
     </Routes>
    </BrowserRouter>
   )

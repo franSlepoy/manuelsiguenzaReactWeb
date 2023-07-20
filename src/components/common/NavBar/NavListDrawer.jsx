@@ -19,11 +19,11 @@ export default function NavListDrawer() {
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="mailto:supernoli@gmail.com" >
+            <ListItemButton component="a" href="/formulario" >
               <ListItemIcon>
               <EmailTwoToneIcon sx={{ fontSize: 33}} />
               </ListItemIcon>
-              <ListItemText primary="Email"/>
+              <ListItemText primary="Contacto"/>
             </ListItemButton>
           </ListItem>
         </List>
