@@ -13,7 +13,7 @@ const Textos = () => {
     
     <Box>
          {
-            TextosData.map(texto => <Typography   textAlign={"center"} sx={{margin:3}} variant='h3' key={texto.id} component={NavLink} to={"/shop"} style={linkStyle} color={"black"} display={"flex"} flexDirection={"column"} >{texto.titulo}</Typography> )
+            TextosData.map(texto => <Typography   textAlign={"center"} sx={{margin:5}} variant='h4' key={texto.id} component={NavLink} to={"/shop"} style={linkStyle} color={"black"} display={"flex"} flexDirection={"column"} >{texto.titulo}</Typography> )
          }
 
     </Box>
