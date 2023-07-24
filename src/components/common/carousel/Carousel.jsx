@@ -10,7 +10,7 @@ import ImagenCard from '../imagenCard/Imagencard.jsx';
 {
     return (
         
-          <Carousel sx={{width:1403, mt:5, mb:5}}  >
+          <Carousel sx={{width:1436, mt:-1}}  >
             {
                 TodasLasImagenes.map( imagen => <ImagenCard key={imagen.id}  imagen={imagen.imagen} /> )
             }

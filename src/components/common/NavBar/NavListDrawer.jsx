@@ -32,23 +32,12 @@ export default function NavListDrawer() {
       <nav aria-label="secondary mailbox folders">
         <List>
           <ListItem disablePadding>
-            <ListItemButton component="a" href="#">
+            <ListItemButton component="a"  target={"_blank"}   href="https://www.instagram.com/manuelsigu/">
               <InstagramIcon sx={{mr: 3, fontSize:33}}/>
               <ListItemText primary="Instagram"  sx={{mr:13}}/>
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#">
-            <FacebookTwoToneIcon sx={{mr: 3, fontSize:33}} />
-              <ListItemText primary="Facebook"/>
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#">
-            <YouTubeIcon sx={{mr: 3, fontSize:33}} />
-              <ListItemText primary="YouTube"/>
-            </ListItemButton>
-          </ListItem>
+          
         </List>
       </nav>
     </Box>

@@ -5,6 +5,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import { ObrasSecciones } from '../../../servidor/ObrasSecciones';
 import { NavLink } from 'react-router-dom'
+import { red } from '@mui/material/colors';
 
 export default function Obras() {
     const linkStyle = {
@@ -23,7 +24,8 @@ export default function Obras() {
               alt={seccion.titulo}
               
             />
-          <ImageListItemBar position="below" title={seccion.titulo} />
+            
+          <ImageListItemBar sx={{color: 'black',backgroundColor:"transparent", textTransform:"uppercase"}}  position="bottom" title={seccion.titulo} /> 
           </ImageListItem>
         ))}
       </ImageList>

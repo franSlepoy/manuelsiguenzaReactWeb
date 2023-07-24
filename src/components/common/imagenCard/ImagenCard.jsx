@@ -5,11 +5,12 @@ import { CardActionArea } from '@mui/material';
 
 export default function ImagenCard(props) {
   return (
-    <Card sx={{ maxWidth: 445, margin:"auto" }}>
+    <Card sx={{  maxWidth: 2045, margin:"auto" }}>
       <CardActionArea>
         <CardMedia
+          sx={{margin:0}}
           component="img"
-          height="470"
+          height="600"
           image={props.imagen}
           
         />
