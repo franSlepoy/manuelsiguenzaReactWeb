@@ -3,7 +3,10 @@ import NavBar from "./components/common/NavBar/NavBar"
 import Cv from "./components/pages/cv/Cv"
 import Formulario from "./components/pages/formulario/Formulario"
 import Home from './components/pages/home/Home'
+import Custodios from "./components/pages/obras/Custodios"
+import Mascaras from "./components/pages/obras/Mascaras"
 import Obras from "./components/pages/obras/Obras"
+import UnaClaseDeCosas from "./components/pages/obras/UnaClaseDeCosas"
 import Shop from "./components/pages/shop/Shop"
 import Textos from "./components/pages/textos/Textos"
 
@@ -20,6 +23,9 @@ function App() {
       <Route path='/textos' element={<Textos/>}/>
       <Route path='/shop' element={<Shop/>}/>
       <Route path='/formulario' element={<Formulario/>}/>
+      <Route path='/custodios' element={<Custodios/>}/>
+      <Route path='/mascaras' element={<Mascaras/>}/>
+      <Route path='/unaClaseDeCosas' element={<UnaClaseDeCosas/>}/>
     </Routes>
    </BrowserRouter>
   )
