@@ -5,6 +5,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import { ObrasSecciones } from '../../../servidor/ObrasSecciones';
 import { NavLink } from 'react-router-dom'
+import { Typography } from '@mui/material';
 
 
 export default function Obras() {
@@ -15,7 +16,7 @@ export default function Obras() {
   return (
        
         <Box sx={{ margin:"auto",width: 1200, height: 650}} >
-      <ImageList sx={{mt:5, mb:5}}  variant="woven" cols={3} gap={8}>
+      <ImageList sx={{mt:5, mb:5, overflow: 'hidden'}}  variant="woven"  cols={3} gap={8} >
         {ObrasSecciones.map((seccion) => (
           <ImageListItem key={seccion.id} component={NavLink} to={seccion.link} style={linkStyle} sx={{color:"black"}}>
             <img
@@ -24,11 +25,13 @@ export default function Obras() {
               alt={seccion.titulo}
               
             />
+            <Typography variant="subtitle2" color="primary" sx={{textTransform:"uppercase"}} ml={2}>{seccion.titulo}</Typography>
             
-          <ImageListItemBar  sx={{ backgroundColor:"transparent", textTransform:"uppercase"}}  position="bottom" title={seccion.titulo} /> 
+          <ImageListItemBar  sx={{ backgroundColor:"transparent", textTransform:"uppercase"}}  /> 
           </ImageListItem>
         ))}
       </ImageList>
+      
     </Box>
        
         

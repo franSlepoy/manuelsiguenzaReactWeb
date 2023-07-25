@@ -9,6 +9,7 @@ import Obras from "./components/pages/obras/Obras"
 import UnaClaseDeCosas from "./components/pages/obras/UnaClaseDeCosas"
 import Shop from "./components/pages/shop/Shop"
 import Textos from "./components/pages/textos/Textos"
+import TextosImagen from "./components/pages/textos/TextosImagen"
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Route path='/custodios' element={<Custodios/>}/>
       <Route path='/mascaras' element={<Mascaras/>}/>
       <Route path='/unaClaseDeCosas' element={<UnaClaseDeCosas/>}/>
+      <Route path='/texto' element={<TextosImagen/>}/>
     </Routes>
    </BrowserRouter>
   )

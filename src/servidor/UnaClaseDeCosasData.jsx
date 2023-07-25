@@ -41,11 +41,11 @@ export const UnaClaseDeCosasData = [
         titulo: "figurillas6.jpg"
     },
     {id: 11,
-        imagen: "/src/imagenes/jarra1.jpg.jpg", 
+        imagen: "/src/imagenes/jarra1.jpg", 
         titulo: "jarra1.jpg"
     },
     {id: 12,
-        imagen: "/src/imagenes/jarra2.jpg.jpg", 
+        imagen: "/src/imagenes/jarra2.jpg", 
         titulo: "jarra2.jpg"
     }, 
     {id: 13,
