@@ -7,6 +7,7 @@ import Custodios from "./components/pages/obras/Custodios"
 import Mascaras from "./components/pages/obras/Mascaras"
 import Obras from "./components/pages/obras/Obras"
 import UnaClaseDeCosas from "./components/pages/obras/UnaClaseDeCosas"
+import DetalleShop from "./components/pages/shop/DetalleShop"
 import Shop from "./components/pages/shop/Shop"
 import Textos from "./components/pages/textos/Textos"
 import TextosImagen from "./components/pages/textosImagen/TextosImagen"
@@ -24,6 +25,7 @@ function App() {
       <Route path='/textos' element={<Textos/>}/>
       <Route path="/textos/:id" element={<TextosImagen/>} />
       <Route path='/shop' element={<Shop/>}/>
+      <Route path='/shop/:id' element={<DetalleShop/>}/>
       <Route path='/formulario' element={<Formulario/>}/>
       <Route path='/custodios' element={<Custodios/>}/>
       <Route path='/mascaras' element={<Mascaras/>}/>

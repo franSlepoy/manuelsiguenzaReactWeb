@@ -2,7 +2,7 @@ export const TextosData = [
     {id: 1,
      imagen: "/src/imagenes/texto1.jpg",
      titulo: "Custodios",
-     descripcion:"Un texto que va a ir por aca y que se escribio un poco antes de salir campeones del mundial de Qatar 2022 "
+     descripcion:"Marcos kramer, 2021.Texto en ocacion de muetra en la Galeria Tanto."
     
     },
     {id: 2,

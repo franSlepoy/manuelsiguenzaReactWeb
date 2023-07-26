@@ -12,7 +12,7 @@ const TextosImagen = () => {
   // Filtrar los datos para obtener el texto correspondiente
   const textoSeleccionado = TextosData.find((elemento) => elemento.id === idNumero);
 
-  console.log(textoSeleccionado);
+  
 
   return (
     <Box sx={{ margin:"auto",width: 1200, height: 650}} >
