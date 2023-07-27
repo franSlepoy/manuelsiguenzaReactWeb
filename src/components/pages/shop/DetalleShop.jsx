@@ -17,7 +17,7 @@ const DetalleShop = () => {
 
   return (
 
-    <Card sx={{ margin:"auto", maxWidth: 945, height:700, padding:2,  mt:3, display: "flex" }}>
+    <Card sx={{ margin:"auto", maxWidth: 945, height:700, padding:2,  mt:18, display: "flex" }}>
     <CardActionArea>
       <CardMedia
       sx={{mt:-15}}

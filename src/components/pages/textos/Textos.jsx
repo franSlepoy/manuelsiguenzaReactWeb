@@ -11,11 +11,11 @@ const Textos = () => {
       };
   return (
     
-    <Box>
+    <Box mt={20}>
       
          {
             TextosData.map(texto => <Box> 
-            <Typography   textAlign={"center"} sx={{mt:5 }} variant='h4' key={texto.id} component={NavLink} to={`/textos/${texto.id}`} style={linkStyle} color={"black"} display={"flex"} flexDirection={"column"} >{texto.titulo}</Typography>
+            <Typography  textAlign={"center"} sx={{mt:5 }} variant='h4' key={texto.id} component={NavLink} to={`/textos/${texto.id}`} style={linkStyle} color={"black"} display={"flex"} flexDirection={"column"} >{texto.titulo}</Typography>
             <Typography variant='body2' textAlign={"center"}>{texto.descripcion} </Typography>
             </Box> )
          }

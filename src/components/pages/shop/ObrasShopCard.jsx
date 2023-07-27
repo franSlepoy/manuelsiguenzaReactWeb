@@ -33,23 +33,11 @@ export default function ObrasShopCard(props) {
       </CardActionArea>
       <CardActions>
       <Link to={`/shop/${props.id}`} style={{ textDecoration: 'none' }}>
-        <Button sx={{ml:1}} variant="contained" size="small" color="primary">
+        <Button sx={{ml:1, mt:-3}} variant="contained" size="small" color="primary">
           Comprar
         </Button>
         </Link>
       </CardActions>
     </Card>
- 
-  
- 
-    
-   
-     
-  
-     
-   
-    
-   
-    
-  );
+ );
 }

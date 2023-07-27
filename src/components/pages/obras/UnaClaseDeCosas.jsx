@@ -15,7 +15,7 @@ export default function UnaClaseDeCosas() {
   return (
        
         <Box sx={{ margin:"auto",width: 1200, height: 650, }} >
-      <ImageList sx={{mt:5, mb:5}}   variant="standard" cols={2} gap={8}>
+      <ImageList sx={{mt:18, mb:5}}   variant="standard" cols={2} gap={8}>
         {UnaClaseDeCosasData.map((seccion) => (
           <ImageListItem key={seccion.id}  style={linkStyle} sx={{color:"black"}}>
             <img

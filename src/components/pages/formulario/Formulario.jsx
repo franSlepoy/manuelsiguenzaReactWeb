@@ -4,7 +4,7 @@ import React from 'react'
 const Formulario = () => {
   return (
     <>
-    <Typography variant='h3' sx={{ margin: 3 }} align='center' > Formulario </Typography>
+    <Typography variant='h3' sx={{ margin: 3, mt:22 }} align='center' > Formulario </Typography>
     <Box component="form" sx={{textAlign:"center"}}>
     <TextField
         id='nombre' label="Nombre completo" type="text" variant='outlined' helperText="Nombre completo" error={false}

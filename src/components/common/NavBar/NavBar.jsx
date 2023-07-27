@@ -18,7 +18,7 @@ const NavBar = () => {
   return (
     <>
        
-      <AppBar position="static" color="transparent">
+      <AppBar position="fixed"  color="secondary" >
      
        <Toolbar>
        <Typography style={linkStyle} component={NavLink} to={"/"}   sx={{ml:2, mt:1, fontSize:60}} variant="h1" color="primary" mt={3} ml={5}>MANUEL SIGÜENZA</Typography>

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Cv = () => {
   return (
-  <Box sx={{marginTop:8}}>
+  <Box sx={{marginTop:18}}>
      <Box margin={"auto"}  width={800} display="flex">
         <img width={300} height={400} src="/src/imagenes/cv.jpeg" alt="" />
         <CardContent>

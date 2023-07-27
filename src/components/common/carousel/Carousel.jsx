@@ -10,13 +10,8 @@ import ImagenCard from '../imagenCard/Imagencard.jsx';
 {
     return (
         
-          <Carousel sx={{width:1436, mt:-1,}}
-          navButtonsWrapperProps={{   // Move the buttons to the bottom. Unsetting top here to override default style.
-            style: {
-                bottom: '30',
-                top: 'unset'
-            }
-        }} 
+          <Carousel sx={{width:1436, mt:15}}
+       
           >
             {
                 TodasLasImagenes.map( imagen => <ImagenCard key={imagen.id}  imagen={imagen.imagen} /> )
